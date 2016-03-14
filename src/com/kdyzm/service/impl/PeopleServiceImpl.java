@@ -17,7 +17,7 @@ public class PeopleServiceImpl implements PeopleService {
 
 	@Override
 	public People findPeopleById(Serializable id) {
-		return peopleDao.findPeopleById(id);
+		return peopleDao.findById(id);
 	}
 
 }
